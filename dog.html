@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>dogs page</title>
+    </head>
+    <body>
+        <h1>Dogs galleria</h1>
+        <main>
+            <section>
+               <h2>dog pics</h2>
+               <!--TODO: Add link to dog photos-->
+               <p>Click here to view more dog photos.<a href="https://www.pexels.com/search/dog/" target="_blank">dog images</a></p>
+               <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a cute dog staring at you">
+            </section>
+            <section>
+                <h2>dog Lists</h2>
+                <h3>Things dogss love:</h3>
+                <ul>
+                  <li>Meat</li>
+                  <li>Cheese</li>
+                  <li>Specially-formulated dog food</li>
+                </ul>
+                <figure>
+                  <img src="https://www.k9ofmine.com/wp-content/uploads/2019/02/Beef-Dog-Food-1150x700.jpg" alt="different types of beef.">
+                  <figcaption>dogs <em>love</em> beef</figcaption>  
+                </figure>
+                <h3>Top 3 things dogs hate:</h3>
+                <ol>
+                  <li>Hugging</li>
+                  <li>Strong Fragrances</li>
+                  <li>Being Upset</li>
+                </ol>
+                <figure>
+                  <img src="https://dogexpress.in/wp-content/uploads/2021/01/Hugging-Too-Tightly-1024x681.jpg.webp" alt="Five cats looking around a field.">
+                  <figcaption>dogs <strong>hate</strong> huging.</figcaption>  
+                </figure>
+              </section>
+              <section>
+                <h2>Cat Form</h2>
+                <form action="https://xoxoDogphotoapp.com/submit-dog-photo">
+                  <fieldset>
+                    <legend>Is your dog an indoor or outdoor dog?</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                  </fieldset>
+                  <fieldset>
+                    <legend>What's your dog's personality?</legend>
+                    <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                    <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                    <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                  </fieldset>
+                  <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+                  <button type="submit">Submit</button>
+                </form>
+              </section>
+            </main>
+            <footer>
+              <p>
+                No Copyright - <a href="https://www.xoxo.org">xoxo.org</a>
+              </p>
+            </footer>
+    </body>
+</html>
